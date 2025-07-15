@@ -12,7 +12,6 @@ __pycache__/
 .ipynb_checkpoints/
 
 # Datos y modelos pesados
-data/
 datasets/
 models/
 *.h5
