@@ -1,0 +1,50 @@
+# Entornos virtuales
+venv/
+.env
+.env.*
+
+# Archivos de Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Notebooks de Jupyter
+.ipynb_checkpoints/
+
+# Datos y modelos pesados
+data/
+datasets/
+models/
+*.h5
+*.ckpt
+*.pth
+*.joblib
+*.pkl
+
+# Salidas de logs y reports
+logs/
+*.log
+reports/
+
+# Configuración de IDEs y editores
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Archivos de entorno y build
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración de pip y poetry
+pip-wheel-metadata/
+poetry.lock
+
+# Otros
+*.sqlite3
